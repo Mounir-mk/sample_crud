@@ -1,9 +1,6 @@
-
 # Sample CRUD done in a workshop @WildCodeSchool
 
 It is a challenge realized at the wcs, whose goal is to create an api with a simple crud, on a database comprising a table user composed of two columns: email and password.
-
-
 
 ## INSTALL DEPENDENCIES, AND START THE PROJECT
 
@@ -11,11 +8,12 @@ It is a challenge realized at the wcs, whose goal is to create an api with a sim
 
 -Put your db username and password in .env.sample file and rename it .env
 
--Connect to your mysql server and type 'source database.sql'
+-npm run migrate
 
 -npm run dev (START THE PROJECT)
 
 -Try the routes with something like Postman
+
 ## API Reference
 
 #### Get all users
@@ -35,6 +33,7 @@ It is a challenge realized at the wcs, whose goal is to create an api with a sim
 ```http
   POST /api/users
 ```
+
 #### Update one user
 
 ```http
@@ -55,3 +54,4 @@ To run this project, you will need to add the following environment variables to
 
 `DB_PASSWORD`
 
+`DB_NAME`
