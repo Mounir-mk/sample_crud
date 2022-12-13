@@ -1,3 +1,5 @@
+DROP database if exists `database`;
+
 CREATE DATABASE IF NOT EXISTS `database`;
 USE `database`;
 
